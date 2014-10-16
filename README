@@ -1,0 +1,10 @@
+This is going to be a test of the vim easy tags plugin
+
+
+
+Mygoal is is to create a seperate tags file for easy tags
+this will be in the .vimrc
+
+
+Note: I did break the setup and now the tags file is incorrect
+I need to create a new "tagscript"
