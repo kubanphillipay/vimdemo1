@@ -8,12 +8,10 @@ int main( int argc , char ** argv ){
    
 
    std::cout << "Hello World" << std::endl;
-
    std::cin.get();
-
+   
    MyClass test;
    test.myfunc();
-   
    std::vector<int> myvec;
    myvec.push_back(10);
    test.myfunc();
@@ -24,6 +22,8 @@ int main( int argc , char ** argv ){
 //this is a 
 //s
 //t
+
+
    std::cout << "This is a test\n";
 
    std::cout << "\nStarting my printer\n";
