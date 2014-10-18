@@ -2,11 +2,14 @@ cmake_minimum_required( VERSION 3.0 )
 PROJECT(demo)
 
 include(SetupInstallPath.cmake)
-include(setupc11.cmake)
-include(setupvimdie.cmake)
-
 
 message(STATUS "PRJ: CMAKE_MODULE_PATH: ${CMAKE_MODULE_PATH}" )
+
+
+include(setupc11)
+include(setupvimide)
+
+
 
 SetupCxx11()
 SetupVimIde()
